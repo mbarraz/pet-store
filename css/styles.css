@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'glyphicons-halflings-regular';
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix'), format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg') format('svg');
+}
+.navbar-brand {
+  padding: 0;
+  font-family: "glyphicons-halflings-regular";
+}
+.jumbotron {
+  background-image: url("../img/hero.jpg");
+  height: 20em;
+  background-size: cover;
+  background-position: center;
+  text-align:center;
+  color: white;
+}
+.jumbotron > .container > h4 {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+footer {
+  background-color: black;
+  text-align: center;
+}
